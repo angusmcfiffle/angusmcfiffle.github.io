@@ -1,9 +1,43 @@
-html {background-color: black}
+body {background-color: black}
+
+a:active {
+    color: green;
+}
 
 .title {
   font-weight: bold;
   text-align: center;
   color: #0995db;
+}
+
+.glow {
+    color: #0995db;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #0995db, 0 0 20px #0995db, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 45px #e60073,
+            0 0 50px #e60073, 0 0 55px #e60073, 0 0 60px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 45px #ff4da6, 0 0 50px #ff4da6, 0 0 55px #ff4da6, 0 0 60px #ff4da6;
+    }
+}
+
+.button {
+    background-color: #0995db;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+}
+.button:active {
+    background-color: white;
 }
 
 div {
