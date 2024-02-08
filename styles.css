@@ -1,4 +1,4 @@
-body {background-color: black}
+body {background-color: black !important}
 
 a:active {
     color: green;
@@ -30,7 +30,7 @@ a:active {
 }
 
 .card {
-    background-color: black;
+    background-color: black !important;
 }
 
 .card-title {
@@ -57,7 +57,5 @@ a:active {
     background-color: white;
 }
 
-div {
-  
-}
+
 
