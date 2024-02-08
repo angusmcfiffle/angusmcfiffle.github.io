@@ -5,9 +5,10 @@ a:active {
 }
 
 .title {
-  font-weight: bold;
-  text-align: center;
-  color: #0995db;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: #0995db;
 }
 
 .glow {
@@ -26,6 +27,22 @@ a:active {
     to {
         text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 45px #ff4da6, 0 0 50px #ff4da6, 0 0 55px #ff4da6, 0 0 60px #ff4da6;
     }
+}
+
+.card {
+    background-color: black;
+}
+
+.card-title {
+    color: #0681bf
+}
+
+.card-subtitle {
+    color: #3cafe8
+}
+
+.card-text {
+    color: #0995db
 }
 
 .button {
