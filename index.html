@@ -5,17 +5,18 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>angusmcfiffle's collection</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
 
     <!--Additional elements for browsers and robots go here goes here-->
 
 </head>
-<link href="styles.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 <body>
     <h1 class="glow">Welcome to angusmcfiffle's collection of wonderful games!</h1>
-   <!-- <button class="button" type="button" onclick="lightMode()">Light Mode</button> -->
+    <!-- <button class="button" type="button" onclick="lightMode()">Light Mode</button> -->
     <button class="button" type="button" onclick="darkMode()">Dark Mode</button>
 
     <script>
@@ -29,176 +30,306 @@
         }
     </script>
 
-    <hr class="border border-primary border-3 opacity-75">
+    <nav>
+        <div class="nav nav-tabs nav justify-content-center" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Unsorted Games</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Games With Progress</button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Time Wasters</button>
+            <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" disabled>Developers Choice</button>
+        </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+            <h2>yoooo</h2>
+            <div class="row">
+                <div class="col-sm-6 text-center mb-3 mb-sm-0 border-primary" style="max-width: 100rem;">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Minecraft 1.5.2</h5>
+                            <p class="card-text">A 1:1 recreation of Minecraft 1.5.2 hosted entirely in your browser. It will save worlds you make into your cookies, so if you clear them the worlds will get deleted. Multiplayer does not work at school.</p>
+                            <a href="https://angusmcfiffle.github.io/minecraftunblocked-forky/go/minecraft-1.5.2/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Minecraft 1.8.8</h5>
+                            <p class="card-text">A 1:1 recreation of Minecraft 1.8.8, with the stipulation that it is exclusively multiplayer. This means you will not be able to play at school.</p>
+                            <a href="https://angusmcfiffle.github.io/minecraftunblocked-forky/go/minecraft-1.8.8/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">The Factory of Automation</h5>
+                            <p class="card-text">The Factory of Automation is an incremental/idle game somewhat similar to cookie clicker. It starts with you producing steel and progresses to the fabrication of radiation and eclipses. This game ends at e1.125e11 Steel.</p>
+                            <a href="https://angusmcfiffle.github.io/tfoa-forky/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Cookie Clicker</h5>
+                            <p class="card-text">The Grandfather of the Clicker/Idle Game genre, Cookie Clicker. Enough said.</p>
+                            <a href="https://angusmcfiffle.github.io/cookieclickerforky/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Suika Game Clone</h5>
+                            <p class="card-text">A version of Suika Game (or watermelon game) that has different score scaling to the original. In this game, you drop different fruits on each other. If 2 or more of the same fruit touch, they will combine into a larger fruit. The goal is to get as many points as possible, while not overfilling the screen with fruit.</p>
+                            <a href="https://angusmcfiffle.github.io/suikagameforky/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Connect 4</h5>
+                            <p class="card-text">A website with Connect 4. The different gamemodes offered are Player vs. AI, Player vs. Player (same computer), Player vs. Player (different computers via shared link), and AI vs. AI.</p>
+                            <a href="https://kenrick95.github.io/c4/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Candy Box 2</h5>
+                            <p class="card-text">An older game, it is an adventure made of entirely text and ASCII art. The game starts off really simple with 1 button, but trust me, stick with it for 10 minutes and you'll be hooked.</p>
+                            <a href="https://angusmcfiffle.github.io/candybox2forky/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Tic Tac Toe</h5>
+                            <p class="card-text">A simple puzzle disguised as tic tac toe. There are only a handful of solutions, so if you figure it out, be proud of yourself.</p>
+                            <a href="https://angusmcfiffle.github.io/tictactoeforky/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">A Dark Room</h5>
+                            <p class="card-text">A game similar to Candy Box 2 in it's unfolding nature. It starts out with you by a fire, and evolves into you building a society and managing resources in this strange new world.</p>
+                            <a href="https://angusmcfiffle.github.io/adarkroomforky/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Evolve</h5>
+                            <p class="card-text">
+                                Evolve Incremental is a web-based game about first evolving a species from primordial ooze into a sentient species, then guiding that new species into a mighty civilization that will eventually take to the stars and colonize space. This game is VERY LENGTHY, PLEASE BACK UP YOUR SAVES!
+                            </p>
+                            <a href="https://angusmcfiffle.github.io/Evolveforky/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">1434</h5>
+                            <p class="card-text">1434 is a modified version of 2048 with new modes and new tiles.</p>
+                            <a href="https://angusmcfiffle.github.io/1434/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Tetris</h5>
+                            <p class="card-text">A version of tetris with 12 diffent game configurations. (AI vs Human, Human vs Human, Human vs Network, etc.)</p>
+                            <a href="https://angusmcfiffle.github.io/games/tetris/custom-tetris-master/index.html" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Yet Another Match 3 Clone</h5>
+                            <p class="card-text">Generic match 3 game like candy crush. Has a multitude of gamemodes, being Classic (Regular gamemode), Speed (Score as many points as possible in the alloted timeframe), Action (A modified Classic with new matchables), and Endless (Classic but without levels, just go for a high score!).</p>
+                            <a href="https://angusmcfiffle.github.io/games/match-3-master/index.html" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Template</h5>
+                            <p class="card-text">Placeholder</p>
+                            <a href="#" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        x
+                        <div class="card-body">
+                            <h5 class="card-title">Template</h5>
+                            <p class="card-text">Placeholder</p>
+                            <a href="#" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Template</h5>
+                            <p class="card-text">Placeholder</p>
+                            <a href="#" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Template</h5>
+                            <p class="card-text">Placeholder</p>
+                            <a href="#" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Template</h5>
+                            <p class="card-text">Placeholder</p>
+                            <a href="#" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+            <h4>yo!</h4>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">The Factory of Automation</h5>
+                            <p class="card-text">The Factory of Automation is an incremental/idle game somewhat similar to cookie clicker. It starts with you producing steel and progresses to the fabrication of radiation and eclipses. This game ends at e1.125e11 Steel.</p>
+                            <a href="https://angusmcfiffle.github.io/tfoa-forky/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Cookie Clicker</h5>
+                            <p class="card-text">The Grandfather of the Clicker/Idle Game genre, Cookie Clicker. Enough said.</p>
+                            <a href="https://angusmcfiffle.github.io/cookieclickerforky/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Candy Box 2</h5>
+                            <p class="card-text">An older game, it is an adventure made of entirely text and ASCII art. The game starts off really simple with 1 button, but trust me, stick with it for 10 minutes and you'll be hooked.</p>
+                            <a href="https://angusmcfiffle.github.io/candybox2forky/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">A Dark Room</h5>
+                            <p class="card-text">A game similar to Candy Box 2 in it's unfolding nature. It starts out with you by a fire, and evolves into you building a society and managing resources in this strange new world.</p>
+                            <a href="https://angusmcfiffle.github.io/adarkroomforky/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Evolve</h5>
+                            <p class="card-text">
+                                Evolve Incremental is a web-based game about first evolving a species from primordial ooze into a sentient species, then guiding that new species into a mighty civilization that will eventually take to the stars and colonize space. This game is VERY LENGTHY, PLEASE BACK UP YOUR SAVES!
+                            </p>
+                            <a href="https://angusmcfiffle.github.io/Evolveforky/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
 
-    <div class="row">
-        <div class="col-sm-6 text-center mb-3 mb-sm-0">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Minecraft 1.5.2</h5>
-                    <p class="card-text">A 1:1 recreation of Minecraft 1.5.2 hosted entirely in your browser. It will save worlds you make into your cookies, so if you clear them the worlds will get deleted. Multiplayer does not work at school.</p>
-                    <a href="https://angusmcfiffle.github.io/minecraftunblocked-forky/go/minecraft-1.5.2/" class="btn btn-primary">Go to Game</a>
-                </div>
             </div>
         </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Minecraft 1.8.8</h5>
-                    <p class="card-text">A 1:1 recreation of Minecraft 1.8.8, with the stipulation that it is exclusively multiplayer. This means you will not be able to play at school.</p>
-                    <a href="https://angusmcfiffle.github.io/minecraftunblocked-forky/go/minecraft-1.8.8/" class="btn btn-primary">Go to Game</a>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Yet Another Match 3 Clone</h5>
+                            <p class="card-text">Generic match 3 game like candy crush. Has a multitude of gamemodes, being Classic (Regular gamemode), Speed (Score as many points as possible in the alloted timeframe), Action (A modified Classic with new matchables), and Endless (Classic but without levels, just go for a high score!).</p>
+                            <a href="https://angusmcfiffle.github.io/games/match-3-master/index.html" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Tetris</h5>
+                            <p class="card-text">A version of tetris with 12 diffent game configurations. (AI vs Human, Human vs Human, Human vs Network, etc.)</p>
+                            <a href="https://angusmcfiffle.github.io/games/tetris/custom-tetris-master/index.html" class="btn btn-primary">Go to Game</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">1434</h5>
+                            <p class="card-text">1434 is a modified version of 2048 with new modes and new tiles.</p>
+                            <a href="https://angusmcfiffle.github.io/1434/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Tic Tac Toe</h5>
+                            <p class="card-text">A simple puzzle disguised as tic tac toe. There are only a handful of solutions, so if you figure it out, be proud of yourself.</p>
+                            <a href="https://angusmcfiffle.github.io/tictactoeforky/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Connect 4</h5>
+                            <p class="card-text">A website with Connect 4. The different gamemodes offered are Player vs. AI, Player vs. Player (same computer), Player vs. Player (different computers via shared link), and AI vs. AI.</p>
+                            <a href="https://kenrick95.github.io/c4/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Suika Game Clone</h5>
+                            <p class="card-text">A version of Suika Game (or watermelon game) that has different score scaling to the original. In this game, you drop different fruits on each other. If 2 or more of the same fruit touch, they will combine into a larger fruit. The goal is to get as many points as possible, while not overfilling the screen with fruit.</p>
+                            <a href="https://angusmcfiffle.github.io/suikagameforky/" class="btn btn-primary">Go to Game</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">The Factory of Automation</h5>
-                    <p class="card-text">The Factory of Automation is an incremental/idle game somewhat similar to cookie clicker. It starts with you producing steel and progresses to the fabrication of radiation and eclipses. This game ends at e1.125e11 Steel.</p>
-                    <a href="https://angusmcfiffle.github.io/tfoa-forky/" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Cookie Clicker</h5>
-                    <p class="card-text">The Grandfather of the Clicker/Idle Game genre, Cookie Clicker. Enough said.</p>
-                    <a href="https://angusmcfiffle.github.io/cookieclickerforky/" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Suika Game Clone</h5>
-                    <p class="card-text">A version of Suika Game (or watermelon game) that has different score scaling to the original. In this game, you drop different fruits on each other. If 2 or more of the same fruit touch, they will combine into a larger fruit. The goal is to get as many points as possible, while not overfilling the screen with fruit.</p>
-                    <a href="https://angusmcfiffle.github.io/suikagameforky/" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Connect 4</h5>
-                    <p class="card-text">A website with Connect 4. The different gamemodes offered are Player vs. AI, Player vs. Player (same computer), Player vs. Player (different computers via shared link), and AI vs. AI.</p>
-                    <a href="https://kenrick95.github.io/c4/" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Candy Box 2</h5>
-                    <p class="card-text">An older game, it is an adventure made of entirely text and ASCII art. The game starts off really simple with 1 button, but trust me, stick with it for 10 minutes and you'll be hooked.</p>
-                    <a href="https://angusmcfiffle.github.io/candybox2forky/" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Tic Tac Toe</h5>
-                    <p class="card-text">A simple puzzle disguised as tic tac toe. There are only a handful of solutions, so if you figure it out, be proud of yourself.</p>
-                    <a href="https://angusmcfiffle.github.io/tictactoeforky/" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">A Dark Room</h5>
-                    <p class="card-text">A game similar to Candy Box 2 in it's unfolding nature. It starts out with you by a fire, and evolves into you building a society and managing resources in this strange new world.</p>
-                    <a href="https://angusmcfiffle.github.io/adarkroomforky/" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Evolve</h5>
-                    <p class="card-text">
-                        Evolve Incremental is a web-based game about first evolving a species from primordial ooze into a sentient species, then guiding that new species into a mighty civilization that will eventually take to the stars and colonize space. This game is VERY LENGTHY, PLEASE BACK UP YOUR SAVES!
-                    </p>
-                    <a href="https://angusmcfiffle.github.io/Evolveforky/" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">1434</h5>
-                    <p class="card-text">1434 is a modified version of 2048 with new modes and new tiles.</p>
-                    <a href="https://angusmcfiffle.github.io/1434/" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Tetris</h5>
-                    <p class="card-text">A version of tetris with 12 diffent game configurations. (AI vs Human, Human vs Human, Human vs Network, etc.)</p>
-                    <a href="https://angusmcfiffle.github.io/games/tetris/custom-tetris-master/index.html" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Yet Another Match 3 Clone</h5>
-                    <p class="card-text">Generic match 3 game like candy crush. Has a multitude of gamemodes, being Classic (Regular gamemode), Speed (Score as many points as possible in the alloted timeframe), Action (A modified Classic with new matchables), and Endless (Classic but without levels, just go for a high score!).</p>
-                    <a href="https://angusmcfiffle.github.io/games/match-3-master/index.html" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Template</h5>
-                    <p class="card-text">Placeholder</p>
-                    <a href="#" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Template</h5>
-                    <p class="card-text">Placeholder</p>
-                    <a href="#" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Template</h5>
-                    <p class="card-text">Placeholder</p>
-                    <a href="#" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Template</h5>
-                    <p class="card-text">Placeholder</p>
-                    <a href="#" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 text-center">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Template</h5>
-                    <p class="card-text">Placeholder</p>
-                    <a href="#" class="btn btn-primary">Go to Game</a>
-                </div>
-            </div>
-        </div>
+        <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">...</div>
     </div>
 
-        <!-- <ul>
+    <!--<hr class="border border-primary border-3 opacity-75">-->
+
+    
+
+    <!-- <ul>
         <li><a href="https://angusmcfiffle.github.io/minecraftunblocked-forky/go/minecraft-1.5.2/">Minecraft 1.5.2</a></li>
         <li><a href="https://angusmcfiffle.github.io/prestreestuckforky/">The Prestreestuck</a></li>
         <li><a href="https://angusmcfiffle.github.io/candybox2forky/">Candy Box 2</a></li>
