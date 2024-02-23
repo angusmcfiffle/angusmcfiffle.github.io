@@ -1,0 +1,6 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+
+  <path d="M 26 8 L 38 8 L 50 16 L 56 32 L 50 48 L 38 56 L 26 56 L 14 48 L 8 32 L 14 16 Z"
+    fill="#49e400" stroke="#aaa" stroke-width="2" style="filter: drop-shadow(2px 2px #000)"/>
+
+</svg>
