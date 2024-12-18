@@ -26,6 +26,8 @@
         if (container) { // Check if container exists
           container.appendChild(player);
           player.ruffle().load("bubble-tanks-2-1920.swf");
+          player.style.height = "800px";
+          player.style.width = "1280px";
         } else {
           console.error("Container element not found!");
         }
