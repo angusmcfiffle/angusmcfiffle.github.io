@@ -13,17 +13,28 @@
 
 <body>
   <h1 class="glow">Welcome to angusmcfiffle's collection of wonderful games!</h1>
+  <div id="container"></div>  <!-- Add this container div -->
+
   <script>
     window.RufflePlayer = window.RufflePlayer || {};
-    window.addEventListener("load", (event) => {
-        const ruffle = window.RufflePlayer.newest();
-        const player = ruffle.createPlayer();
-        const container = document.getElementById("container");
-        container.appendChild(player);
-        player.ruffle().load("movie.swf");
+
+    window.addEventListener("DOMContentLoaded", () => {
+      let ruffle = window.RufflePlayer.newest();
+      if (ruffle) { // Check if ruffle is defined
+        let player = ruffle.createPlayer();
+        let container = document.getElementById("container");
+        if (container) { // Check if container exists
+          container.appendChild(player);
+          player.ruffle().load("movie.swf");
+        } else {
+          console.error("Container element not found!");
+        }
+      } else {
+        console.error("RufflePlayer not initialized correctly!");
+      }
     });
-</script>
-<script src="ruffle.js"></script>
+  </script>
+  <script src="ruffle.js"></script>
 </body>
 
 </html>
