@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-image: url("https://angusmcfiffle.github.io/4ktroll.png");
+    background-color: black !important;
+}
